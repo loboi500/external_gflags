@@ -1,18 +1,3 @@
-# Bazel (http://bazel.io/) BUILD file for gflags.
-#
-# See INSTALL.md for instructions for adding gflags to a Bazel workspace.
-
-licenses(["notice"])
-
-exports_files(["src/gflags_completions.sh", "COPYING.txt"])
-
-config_setting(
-    name = "x64_windows",
-    values = {"cpu": "x64_windows"},
-)
-
-load(":bazel/gflags.bzl", "gflags_sources", "gflags_library")
-
-(hdrs, srcs) = gflags_sources(namespace=["gflags", "google"])
-gflags_library(hdrs=hdrs, srcs=srcs, threads=0)
-gflags_library(hdrs=hdrs, srcs=srcs, threads=1)
+version https://git-lfs.github.com/spec/v1
+oid sha256:efc76951a209b0638c0678ae6e8659c44b488e27c1b50d66b07daabcee01801e
+size 513

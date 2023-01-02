@@ -1,16 +1,3 @@
-## gflags negative compilation tests
-
-cmake_minimum_required (VERSION 2.8.12 FATAL_ERROR)
-
-if (NOT TEST_NAME)
-  message (FATAL_ERROR "Missing TEST_NAME CMake flag")
-endif ()
-string (TOUPPER ${TEST_NAME} TEST_NAME_UPPER)
-
-project (gflags_${TEST_NAME})
-
-find_package (gflags REQUIRED)
-include_directories ("${CMAKE_CURRENT_SOURCE_DIR}/..")
-add_definitions (-DTEST_${TEST_NAME_UPPER})
-add_executable (gflags_${TEST_NAME} gflags_nc.cc)
-target_link_libraries(gflags_${TEST_NAME} gflags)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d61f37adbfe358ea2c9d63d31ff7375c5f20a0fc49b82ed38af2713fd59db09
+size 482

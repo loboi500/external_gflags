@@ -1,6 +1,3 @@
-# Copyright 2006 Google Inc.  All Rights Reserved.
-# Use of this source code is governed by a BSD-style
-# license that can be found in the COPYING.txt file.
-
-# Bazel (http://bazel.io/) WORKSPACE file for gflags.
-workspace(name="com_github_gflags_gflags")
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf283c13bb984965d73c0576d4826154bbf5c89f42a47ea0b023064d48bf0aa5
+size 255

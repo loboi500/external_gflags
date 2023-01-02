@@ -1,10 +1,3 @@
-## gflags package configuration tests
-
-cmake_minimum_required (VERSION 2.8.12 FATAL_ERROR)
-
-project (gflags_${TEST_NAME})
-
-find_package (gflags REQUIRED)
-
-add_executable (foo main.cc)
-target_link_libraries (foo gflags::gflags)
+version https://git-lfs.github.com/spec/v1
+oid sha256:afbaea9248a9f2187b6a82a51f1d41a7d23267da3d8b9c586daae76ceabb719e
+size 227
